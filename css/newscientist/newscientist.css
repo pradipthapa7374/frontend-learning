@@ -1,0 +1,72 @@
+/* Applies properties to all the pages inside the website */
+*{
+    background: #FFFFFF;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* Applies to all the ul */
+ul{
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto;
+  }
+
+/* Padding and Margin is set to 0 for 1st ul */
+.navbar ul:first-of-type {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+/* Applies to all list elements inside ul tag */
+li{
+    display: inline-block;
+    margin:auto;
+}
+
+/* Applies to navbar class */
+.navbar{
+    font-family: "Titillium Web", "Helvetica", "Trebuchet MS", Arial, sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+}
+
+/* Transforming first list elemenst inside nav-menu class to Uppercase */
+li.nav-menu:first-letter {
+    text-transform: uppercase;
+}
+
+/* Applies to all a elements inside navbar class when nothing is done to a element */
+.navbar a{
+    color: black;
+    text-decoration: none;
+}
+
+/* Changing the second ul items to blue text */
+.second-menu a{
+    color: #31C1EA;
+    text-decoration: none;
+}
+
+/* Underlining when the a element is hovered */
+a:hover {
+    text-decoration: underline;
+}
+  
+/* Changing color when a is hovered */
+a:active,a:hover {
+    color:#31C1EA;
+}
+
+/* Changing colour when a is selected */
+a::selected{
+    color: #31C1EA;
+}
